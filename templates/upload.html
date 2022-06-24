@@ -46,11 +46,12 @@
        type="button"
        value="OK"> -->
  </span></p>
-<!-- {% if filename %}
-	<div>
-		<img src="{{ url_for('display_image', filename=filename) }}">
-	</div>
-{% endif %} -->
 
+
+{% if filename %}
+	<div>
+		<img src="{{ url_for('display_image', filename=filename) }}">	
+	</div>
+{% endif %} 
 
 </html>
