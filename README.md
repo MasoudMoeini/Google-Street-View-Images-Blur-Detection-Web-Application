@@ -15,6 +15,6 @@ $ pip freeze > requirement.txt
 **Run the application**<br/>
 $ python main.py<br/>
 **Open the URL http://localhost:7000 in the browser**<br/>
-**To stop running app use CTRL+C **<br/>
+**To stop running app use CTRL+C**<br/>
 **To deativate python virtual environmet:**<br/>
 $ deactivate <br/>  
