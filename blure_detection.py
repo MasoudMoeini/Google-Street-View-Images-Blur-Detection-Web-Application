@@ -25,6 +25,7 @@ def prediction(file):
   pred = model.predict(image)
   predicted_class = ((pred[1])[0])[0]
   predicted_label = (((pred[0])[0])*255.0).astype(np.uint8)
+  #predicted_label = np.where(predicted_label==255, img_cyan, img)
   predicted_label = Image.fromarray(predicted_label)
   print(predicted_class)
   if (predicted_class>0.5):
