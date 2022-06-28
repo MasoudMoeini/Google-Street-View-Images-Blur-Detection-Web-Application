@@ -32,7 +32,7 @@
 		<input type="submit" value="Submit">
 	</p> -->
 </form>
-<p><span style="font-size: 32px">
+<p style="text-align:center"><span style="font-size: 32px">
 	{% with messages = get_flashed_messages() %}
 	  {% if messages %}
 		<ul>
@@ -47,11 +47,9 @@
        value="OK"> -->
  </span></p>
 
-
 {% if filename %}
 	<div>
 		<img src="{{ url_for('display_image', filename=filename) }}">	
 	</div>
 {% endif %} 
-
 </html>
