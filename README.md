@@ -10,7 +10,7 @@ $ pip install Flask <br/>
 $ pip install numpy <br/>
 $ pip install tensorflow <br/>
 $ pip install pillow <br/>
-$ pip3 install opencv-python
+$ pip3 install opencv-python <br>
 $ pip freeze > requirement.txt  <br/>
 **Run the application**<br/>
 $ python main.py<br/>
