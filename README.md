@@ -1,4 +1,6 @@
-# Google Street View Images Blur Detection Web Application  
+# Google Street View Images Blur Detection Web Application 
+<img width="1019" alt="Screenshot 2022-06-29 at 22 11 41" src="https://user-images.githubusercontent.com/43514418/176536257-e6b5123c-88f1-43bb-9a09-be0e1e267ddc.png">
+<img width="1077" alt="Screenshot 2022-06-29 at 21 39 16" src="https://user-images.githubusercontent.com/43514418/176536319-ce4e30da-eefb-47d2-a69f-c23e5f391148.png">
 **Steps** 
 clone repository<br/>
 $ cd tensorflow-flask-web-application<br/>
@@ -18,4 +20,3 @@ $ python main.py<br/>
 **To stop running app use CTRL+C**<br/>
 **To deativate python virtual environmet:**<br/>
 $ deactivate <br/>  
-<img width="1060" alt="Screenshot 2022-06-25 at 00 16 29" src="https://user-images.githubusercontent.com/43514418/175700009-cdf84fdb-9f44-4c8d-9811-17db33e984f7.png">
