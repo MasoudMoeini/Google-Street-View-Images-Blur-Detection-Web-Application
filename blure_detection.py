@@ -10,8 +10,12 @@ def prediction(file):
   image = Image.open(file)
   image = image.resize((224,224))
   img= np.asarray(image)
+  if (img.shape!=(224,224,3)):
+    img=np.delete(img, 3, 2)
   #img= cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
   image= np.asarray(image).astype(np.float32)/ 255.0
+  if (image.shape!=(224,224,3)):
+    image=np.delete(image, 3, 2)
   image = np.expand_dims(image, -1)
   image = np.expand_dims(image, 0)
   pred = model.predict(image)
