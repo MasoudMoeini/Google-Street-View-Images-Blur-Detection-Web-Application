@@ -3,8 +3,8 @@
 <img width="1019" alt="Screenshot 2022-06-29 at 22 11 41" src="https://user-images.githubusercontent.com/43514418/176536257-e6b5123c-88f1-43bb-9a09-be0e1e267ddc.png">
 <img width="1077" alt="Screenshot 2022-06-29 at 21 39 16" src="https://user-images.githubusercontent.com/43514418/176536319-ce4e30da-eefb-47d2-a69f-c23e5f391148.png">
 **Steps**  <br/>
-clone repository and copy  **model.h5**  file from previous [steps](https://github.com/MasoudMoeini/Google-Street-View-Images-Blur-Detection) into cloned repository folder <br/>
-**To install Application RUN following commands:**  <br/>
+clone repository and copy  **model.h5**  file from previous [steps](https://github.com/MasoudMoeini/Google-Street-View-Images-Blur-Detection) into cloned repository folder. <br/>
+**- To install Application RUN following commands:**  <br/>
 ```
 cd tensorflow-flask-web-application
 ```
@@ -28,7 +28,7 @@ python main.py
 ```
 **- To Access the Application on browser**  <br/>
 Click http://localhost:7000 or copy this Url on your browser<br/>
-To stop running app use  **CTRL+C**  <br/>
+- To stop running app use  **CTRL+C**  <br/>
 **- To deativate python virtual environmet:**  <br/>
 ```
 deactivate 
