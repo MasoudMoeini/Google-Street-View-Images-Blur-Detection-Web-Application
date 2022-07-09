@@ -27,7 +27,7 @@ python main.py
 ```
 - To Access the Application on browser:  <br/>
 Click http://localhost:7000 or copy this Url on your browser<br/>
-- To stop running app use  **CTRL+C**  <br/>
+- To stop running Application use  **CTRL+C**  <br/>
 - To deativate python virtual environmet:  <br/>
 ```
 deactivate 
