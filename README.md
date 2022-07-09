@@ -21,14 +21,14 @@ pip install tensorflow
 pip install pillow 
 pip3 install opencv-python 
 ```
-**- To execute Application RUN**  <br/>
+- To execute Application RUN <br/>
 ```
 python main.py
 ```
-**- To Access the Application on browser**  <br/>
+- To Access the Application on browser:  <br/>
 Click http://localhost:7000 or copy this Url on your browser<br/>
 - To stop running app use  **CTRL+C**  <br/>
-**- To deativate python virtual environmet:**  <br/>
+- To deativate python virtual environmet:  <br/>
 ```
 deactivate 
 ```
